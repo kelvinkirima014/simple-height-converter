@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+     crossorigin="anonymous">
+     <style>
+         body {
+             margin-top: 50px;
+             background: #333;
+             color: #fff;
+             
+         }
+         
+     </style>
+    <title>Height Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class = "col-md-6 offset-md-3">
+                <h1 class = "display-4 text-center mb-3">Height Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input
+                        id = "lbsInputs"
+                        type="number" 
+                        class="form-control form-control-lg"
+                        placeholder="Enter centimeters.."
+                        >
+                    </div>
+
+                </form>
+                <div id="output">
+
+                    <div class="card bg-primary mb-2">
+                        <div class="card-block">
+                            <h4> Meters:</h4>
+                            <div id="metersOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-success mb-2">
+                        <div class="card-block">
+                            <h4> Feets:</h4>
+                            <div id="feetsOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-2">
+                        <div class="card-block">
+                            <h4> Inches:</h4>
+                            <div id="inchesOutput"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ <script src="heightConverter.js"></script>
+ 
+    
+</body>
+</html>
